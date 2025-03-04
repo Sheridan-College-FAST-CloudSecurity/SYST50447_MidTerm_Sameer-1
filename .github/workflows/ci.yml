@@ -20,9 +20,9 @@ jobs:
           python-version: 3.12
 
       - name: Install Dependencies
-        run: |
+        run: 
           pip install -r requirements.txt
 
       - name: Run Health Check Test
          run: pytest tests
-         
+
