@@ -25,4 +25,5 @@ jobs:
 
       - name: Run Health Check Test
         run: |
-          python -m unittest discover tests
+          run: pytest tests
+          
